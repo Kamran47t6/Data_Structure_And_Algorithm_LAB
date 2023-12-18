@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage[table]{xcolor} % Add xcolor package for color
+
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+\caption{Paper 28: An Efficient and Light Weight Deep Learning Model for Accurate Retinal Vessels Segmentation}
+\begin{table}[h]
+  \centering
+  \arrayrulecolor{lightgray} % Set the color of the table border lines to light gray
+  \hline
+  \begin{tabularx}{\textwidth}{|X|X|} % Use tabularx and set the width to \textwidth
+    \hline
+    \textbf{Section} & \textbf{Text}  \\
+    \hline\hline
+    {Motivation} &Diabetic Retinopathy (DR) is a prevalent acute stage of diabetes mellitus leading to vision abnormalities. Early identification and care are crucial to prevent blindness, emphasizing the need for effective diagnostic tools.  \\
+    \hline\hline
+  {Problem} & Fundus photographs, commonly used for DR detection, suffer from low contrast, noise, and irregular illumination. These issues hinder accurate diagnosis, prompting the need for an algorithm to enhance image quality for better disease detection. \\
+    \hline\hline
+    {Gap} & Existing imaging environments, with varied angles and light conditions, pose challenges. Current methods may not effectively address low contrast and noise issues in fundus images, necessitating the development of a novel algorithm for improved image quality.\\
+    \hline\hline
+    {Problem Statement} & The research aims to address the challenges in fundus image quality by proposing an algorithm. This algorithm, consisting of image cropping, shape cropping, and Gaussian blurring, aims to reduce noise and enhance contrast in color fundus images, ultimately improving the effectiveness of DR detection. \\
+    \hline\hline
+    {Experiments and Results} & The algorithm is evaluated using two standard datasets, EyePACS and MESSIDOR. Experimental results demonstrate that the proposed image enhancement approach significantly outperforms outcomes obtained without enhancement. Feature extraction and classification of enhanced images show superior results, validating the effectiveness of the algorithm.\\
+    \hline\hline
+    {Conclusion} & The improved algorithm, validated through experiments on standard datasets and real-world testing in smart hospitals as an Internet of Medical Things (IoMT) application, showcases its potential to enhance the quality of color fundus images for more accurate and early detection of Diabetic Retinopathy. \\
+    \hline\hline
+\end{tabularx}
+  \arrayrulecolor{black} % Set the color back to black for the remaining document
+  \label{tab:bordertable}
+\end{table}
+\end{document}
