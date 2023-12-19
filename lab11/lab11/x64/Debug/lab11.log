@@ -1,0 +1,7 @@
+﻿  lab11.cpp
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,42): error C2676: binary '[': 'MyHashTable' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,9): error C2530: 'node': references must be initialized
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,9): error C3531: 'node': a symbol whose type contains 'auto' must have an initializer
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,31): error C2143: syntax error: missing ';' before ':'
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,44): error C2676: binary '[': 'MyHashTable' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Dulmi\Desktop\python\lab11\lab11\lab11.cpp(108,45): error C2143: syntax error: missing ';' before ')'

@@ -1,0 +1,59 @@
+﻿  kRUSKAL_ALGO.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1372,19): error C2064: term does not evaluate to a function taking 2 arguments
+  (compiling source file 'kRUSKAL_ALGO.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(1372,19):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Dulmi\Desktop\python\kRUSKAL_ALGO\kRUSKAL_ALGO\kRUSKAL_ALGO.cpp(141,2):
+  	see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(const _RanIt,const _RanIt,_Pr)' being compiled
+          with
+          [
+              _Ty=Edge,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Edge>>>,
+              _Pr=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8081,5):
+  	see reference to function template instantiation 'void std::_Sort_unchecked<Edge*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
+          with
+          [
+              _Fn=int,
+              _RanIt=Edge *,
+              _Pr=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8051,13):
+  	see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
+          with
+          [
+              _BidIt=Edge *,
+              _RanIt=Edge *,
+              _Pr=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(7926,17):
+  	see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Edge&,Edge&,0>(int&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=int,
+              _Ty1=Edge &,
+              _Ty2=Edge &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(7984,16): error C2064: term does not evaluate to a function taking 2 arguments
+  (compiling source file 'kRUSKAL_ALGO.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(7984,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8062,21):
+  	see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=Edge *,
+              _Pr=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(7988,76): error C2064: term does not evaluate to a function taking 2 arguments
+  (compiling source file 'kRUSKAL_ALGO.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(7999,24): error C2064: term does not evaluate to a function taking 2 arguments
+  (compiling source file 'kRUSKAL_ALGO.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(8013,24): error C2064: term does not evaluate to a function taking 2 arguments
+  (compiling source file 'kRUSKAL_ALGO.cpp')
+  
