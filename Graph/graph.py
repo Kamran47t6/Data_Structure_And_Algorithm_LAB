@@ -1,7 +1,17 @@
 class Graph:
-    def __init__(self,nodes):
+  
+    def __init__(self,nodes):   # construtor
         self.nodes=nodes
         self.adj_list={node: [] for node in nodes}
+        
+    def add_node(self,node):
+        if node not in nodes:
+            self.nodes.append(node)
+            self.adj_list[node]=[]   
+   
+       
+    def search_node(self,node):
+        return node in self.nodes
 
     def add_edge(self,u,v):
         self.adj_list[u].append(v)
@@ -35,6 +45,14 @@ graph.add_edge("B","D")
 graph.add_edge("C","E")
 
 graph.add_edge("D","E")
+graph.add_node("H")
+graph.add_edge("H","T")
+graph.add_edge("H","O")
+graph.add_node("K")
+if graph.search_node("W"):
+    print("Yes")
+else:
+    print("No")
 print("Graph")
 graph.print_graph()
 print("In Neighbors:",graph.in_neighbors("C"))
